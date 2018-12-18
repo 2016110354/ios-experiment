@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pZD-34-L3M">
+                                <rect key="frame" x="0.0" y="284.5" width="375" height="118"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xs-lg-hm3">
+                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="118"/>
+                                        <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="8Xs-lg-hm3" secondAttribute="height" multiplier="1:1" id="6wv-PE-8OZ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibl-wE-VxX">
+                                        <rect key="frame" x="128.5" y="0.0" width="118" height="118"/>
+                                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orq-Ia-FeB">
+                                        <rect key="frame" x="256.5" y="0.0" width="118.5" height="118"/>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="8Xs-lg-hm3" firstAttribute="width" secondItem="ibl-wE-VxX" secondAttribute="width" id="5zL-SF-N5g"/>
+                                    <constraint firstItem="8Xs-lg-hm3" firstAttribute="height" secondItem="ibl-wE-VxX" secondAttribute="height" id="Dp6-ra-IIc"/>
+                                    <constraint firstItem="ibl-wE-VxX" firstAttribute="height" secondItem="orq-Ia-FeB" secondAttribute="height" id="GA2-vC-X9P"/>
+                                    <constraint firstItem="ibl-wE-VxX" firstAttribute="width" secondItem="orq-Ia-FeB" secondAttribute="width" id="s9g-gR-i24"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pZD-34-L3M" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="7rd-qL-lfw"/>
+                            <constraint firstItem="pZD-34-L3M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RYR-Yr-7X2"/>
+                            <constraint firstItem="pZD-34-L3M" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="srO-Sc-glN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="357.60000000000002" y="2.2488755622188905"/>
+        </scene>
+    </scenes>
+</document>
